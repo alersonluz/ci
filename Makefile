@@ -16,3 +16,6 @@ docker-shell:
 docker-build-shell: docker-build docker-shell
 docker-build-run: docker-build docker-run
 
+unit-test:
+	chmod +x unit-test.sh && ./unit-test.sh
+
